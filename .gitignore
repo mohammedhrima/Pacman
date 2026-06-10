@@ -4,3 +4,7 @@ a.out
 *.o
 *.log
 .DS_Store
+
+# videos are embedded via GitHub attachment URLs, not committed (repo-bloat / no inline playback)
+*.mov
+*.mp4
