@@ -1,11 +1,6 @@
-# Ignore object files
-*.o
-
-# Ignore executable files
+pacman
 a.out
-**/a.out
-
-# Ignore debugging symbols
-**/*.dSYM
-**/libft.a
-.vscode
+*.dSYM/
+*.o
+*.log
+.DS_Store

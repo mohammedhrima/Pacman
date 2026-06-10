@@ -1,4 +1,4 @@
 flags="-fsanitize=address -g3"
-deps="`sdl2-config --cflags --libs` -lm"
+deps="`sdl2-config --cflags --libs` -I`sdl2-config --prefix`/include -lm"
 
-cc tmp.c map.c $flags $deps
+cc Pacman.c $flags $deps -o pacman
